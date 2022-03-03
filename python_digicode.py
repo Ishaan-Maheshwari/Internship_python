@@ -3,12 +3,6 @@ import sys
 import pandas as pd
 import pymongo
 
-#If file is to be by command line
-#if len(sys.argv) != 2:
-#    raise ValueError("Please provide a zip file as parameter")
-#
-#zip_filename = sys.argv[1]
-
 zip_filename = 'DGCER.zip'
 
 myclient = pymongo.MongoClient("mongodb://localhost:27017/")
